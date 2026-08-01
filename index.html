@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ImmunoFusion – Redirecting…</title>
+
+  <!-- Primary redirect: fastest path -->
+  <meta http-equiv="refresh" content="0; url=http://biotree.top:38124/ImmunoFusion/" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1.5rem;
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: #38bdf8;
+    }
+
+    .logo span { color: #818cf8; }
+
+    .card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 1rem;
+      padding: 2rem 2.5rem;
+      text-align: center;
+      max-width: 480px;
+      width: 100%;
+    }
+
+    .spinner {
+      width: 44px;
+      height: 44px;
+      border: 4px solid #334155;
+      border-top-color: #38bdf8;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      margin: 0 auto 1.25rem;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    h1 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+    }
+
+    .sub {
+      font-size: 0.875rem;
+      color: #94a3b8;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.55rem 1.25rem;
+      border-radius: 0.5rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: opacity 0.15s;
+    }
+    .btn:hover { opacity: 0.85; }
+
+    .btn-primary {
+      background: #0ea5e9;
+      color: #fff;
+      margin-bottom: 0.75rem;
+    }
+
+    .divider {
+      font-size: 0.75rem;
+      color: #475569;
+      margin: 0.5rem 0;
+    }
+
+    .btn-secondary {
+      background: #1e293b;
+      border: 1px solid #475569;
+      color: #94a3b8;
+    }
+
+    .label {
+      display: block;
+      font-size: 0.7rem;
+      color: #64748b;
+      margin-top: 0.3rem;
+    }
+
+    footer {
+      font-size: 0.75rem;
+      color: #475569;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">Immuno<span>Fusion</span></div>
+
+  <div class="card">
+    <div class="spinner" id="spinner"></div>
+    <h1 id="msg">Redirecting you now…</h1>
+    <p class="sub">You will be taken to the app automatically.<br>If nothing happens, use the links below.</p>
+
+    <a class="btn btn-primary" href="http://biotree.top:38124/ImmunoFusion/" id="primary-link">
+      Open ImmunoFusion
+    </a>
+    <span class="label">Primary server</span>
+
+    <div class="divider">— backup —</div>
+
+    <a class="btn btn-secondary" href="https://lisom.work/shinyapps/ImmunoFusion/">
+      lisom.work mirror
+    </a>
+    <span class="label">Alternative access path</span>
+  </div>
+
+  <footer>OncoHarmony Network · ImmunoFusion</footer>
+
+  <script>
+    // Redirect immediately before first paint where possible
+    (function () {
+      var primary = "http://biotree.top:38124/ImmunoFusion/";
+      try {
+        window.location.replace(primary);
+      } catch (e) {
+        window.location.href = primary;
+      }
+    })();
+  </script>
+</body>
+</html>
